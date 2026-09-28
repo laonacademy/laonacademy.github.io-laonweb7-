@@ -1,0 +1,82 @@
+body {
+    font-family: 'Malgun Gothic', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.7;
+}
+    h1 {
+        color: #1a3a6e;
+    }
+    h2 {
+        color: #1a3a6e;
+        border-bottom: 2px solid #1a3a6e;
+        padding-bottom: 8px;
+    }
+      iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        height: auto;
+    }
+ img {
+        width: 50%;
+        height: auto;
+        border-radius: 8px;
+    }
+  .btn-call {
+            display: inline-block;
+            background-color: #1a3a6e;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    h3 {
+            color: #1a3a6e;
+            margin-top: 24px;
+        }
+        ol {
+            background-color: #f5f7fa;
+            padding: 16px 16px 16px 48px;
+            border-radius: 8px;
+        }
+ .card {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+}
+@media (max-width: 600px) {
+  .card-box {
+    flex-direction: column;
+  }
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 24px;
+}
+
+nav a {
+  color: #1a3a6e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.map-frame {
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 4 / 3;
+  height: auto;
+  border: 0;
+  border-radius: 8px;
+}
+.form {
+    aspect-ratio: auto;
+    height: 900px;
+    border: 0;
+}
